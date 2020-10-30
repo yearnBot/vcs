@@ -1,0 +1,54 @@
+{
+    "$id": "~/.gitconfig.",
+    "user.email": "git@yifi.dev",
+    "user.name": "yEarn Bot",
+    "comments": {
+        "lineComment": "//",
+        "blockComment": ["/*", "*/"]
+    },
+    "brackets": [
+        ["{", "}"],
+        ["[", "]"],
+        ["(", ")"]
+    ],
+    "labels": {
+        "additionalProperties": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "applyLabel": {
+                    "description": "Enables automatically applying this bots commits to a label.",
+                    "type": "boolean"
+                },
+                "comment": {
+                    "description": "Comment to add to issues detected to be in this commit ",
+                    "type": "string"
+                },
+                "assign": {
+                    "description": "List of usernames to assign to issues detected to be notified ",
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                }
+            }
+        }
+    },
+    "assignees": {
+        "additionalProperties": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "assign": {
+                    "description": "Enables automatically assigning this team member",
+                    "type": "boolean"
+                },
+                "comment": {
+                    "description": "Comment to add to issues detected to be assigned to this team member",
+                    "type": "string"
+                }
+            }
+        }
+    }
+
+}
