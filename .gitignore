@@ -1,4 +1,6 @@
 # emacs,intellij,vscode,sublimetext,vim,macos,oxygenxmleditor,eclipse
+!bin/
+!*.bash
 ### Eclipse ###
 .metadata
 bin/
