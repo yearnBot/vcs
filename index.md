@@ -1,9 +1,12 @@
 ## yEarn GitBot
 
+![Discord](https://img.shields.io/discord/734804446353031319)
+![Yearn](https://img.shields.io/badge/yEarn-0x5dbcF33D8c2E976c6b560249878e6F1491Bca25c-purple.svg)
+![Discourse posts](https://img.shields.io/discourse/posts?server=https%3A%2F%2Fgov.yearn.finance%2F)
+
 ### Abstract
 
 Registered GitHub account for CI/CD proccesses inorder to keep automated processes out of `git blame`
-
 
 ### Usage
 
@@ -24,9 +27,8 @@ git tag auto/$TASK
 git push origin auto/pre-prettier auto/$TASK master
 "$script_dir"/get-branches.sh | xargs -n 100 "$script_dir"/upgrade-branches.sh
 
-exit 0 
+exit 0
 ```
-
 
 ### Support or Contact
 
