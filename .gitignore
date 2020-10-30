@@ -3,7 +3,6 @@
 !*.bash
 ### Eclipse ###
 .metadata
-bin/
 tmp/
 *.tmp
 *.bak
